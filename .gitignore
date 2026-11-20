@@ -76,3 +76,16 @@ Plugins/**/Intermediate/*
 DerivedDataCache/*
 /Content/__ExternalActors__
 /Content/__ExternalObjects__
+
+# Plugin is linked from ../UE59.Plugin.OSS.WASM (junction), not committed here
+Plugins/OnlineSubsystemWASM
+scripts/out/
+Packaged/
+
+
+# Web build launchers UAT writes next to the archive folder
+/serve.py
+/Play_*.bat
+/play-*.sh
+/*.lock
+
