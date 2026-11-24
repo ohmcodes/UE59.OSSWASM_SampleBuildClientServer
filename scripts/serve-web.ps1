@@ -1,7 +1,6 @@
 # Serves the packaged web client and starts the WebSocket relay, both on this PC.
 #   ./scripts/serve-web.ps1            -> http://localhost:8080/index.html  (relay on ws://localhost:8889)
-# Open the page in Chrome or Edge. For a test without menus add ?args=-WasmOssAutoJoin (Development builds only);
-# a second tab that should be another player: ?args=-WasmOssAutoJoin%20-WasmOssGuestSuffix=2
+# Open the page in Chrome or Edge. A second tab that should be another player (Development builds only): ?args=-WasmOssGuestSuffix=2
 # Ctrl+C stops both.
 param(
     [int]$Port = 8080,
